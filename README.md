@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Handicape Autonme
+
+With the aim of empowering the disabled, handicapeautonome is a website that publishes offers of scholarships, organized events, articles on disabled people who have succeeded in their lives.
 
 ## Getting Started
 
