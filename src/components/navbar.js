@@ -63,7 +63,7 @@ export default function Navbar() {
                   <Link href="/event">Evénéments</Link>
                 </li>
                 <li className="text-white">
-                  <Link href="/scholarships">Bourses d' études</Link>
+                  <Link href="/scholarships">Bourses d'études</Link>
                 </li>
                 <li className="text-white">
                   <Link href="/blog">Blog</Link>
