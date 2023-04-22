@@ -24,16 +24,17 @@ export default function Home() {
           </div>
           <div className='md:w-1/2 w-full'>
             <h2 className='text-center md:text-left tracking-tight leading-none text-3xl font-extrabold md:text-4xl xl:text-5xl mb-4 dark:text-white'>Une initiative de Saint Gabriel</h2>
-            <p className='mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>Le composant d'image peut être utilisé pour intégrer des images à l'intérieur de la page Web dans des articles et des sections basés sur plusieurs styles, tailles, mises en page et animations de survol</p>
+            <p className='mb-6 text-center md:text-justify font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>Le composant d'image peut être utilisé pour intégrer des images à l'intérieur de la page Web dans des articles et des sections basés sur plusieurs styles, tailles, mises en page et animations de survol</p>
           </div>
         </section>
-        <section className='w-full px-4 py-8 md:px-8 md:px-12 mx-0 bg-blue-300'>
+        <section className='w-full px-4 md:px-8 py-8 md:px-8 md:px-12 mx-0 bg-blue-300'>
           <h2 className='text-center tracking-tight leading-none text-3xl font-extrabold md:text-4xl xl:text-5xl mb-4 dark:text-white'>Bourses d'études disponibles</h2>
           <p className='mb-6 font-light text-center text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'>Le composant d'image peut être utilisé pour intégrer des images à l'intérieur de la page Web dans des articles</p>
           <div className='mt-16 flex flex-row flex-wrap justify-between items-center gap-y-8'>
-            <Card width="w-1/4" lien="/event/id" image={heroe2} text="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." title="Noteworthy technology acquisitions 2021"/>
-            <Card width="w-1/4" lien="/event/id" image={heroe2} text="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." title="Noteworthy technology acquisitions 2021"/>
-            <Card width="w-1/4" lien="/event/id" image={heroe2} text="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." title="Noteworthy technology acquisitions 2021"/>
+            <Card lien="/event/id" image={heroe2} text="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." title="Noteworthy technology"/>
+            <Card lien="/event/id" image={heroe2} text="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." title="Noteworthy technology"/>
+            <Card lien="/event/id" image={heroe2} text="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." title="Noteworthy technology"/>
+            <Card lien="/event/id" image={heroe2} text="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order." title="Noteworthy technology"/>
           </div>
         </section>
       </main>
